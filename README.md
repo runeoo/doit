@@ -15,11 +15,6 @@ O DOIT usa vários projetos de código aberto para funcionar corretamente:
 * [Flutter](https://flutter.dev/) - Frontend aplication
 * [PostgreSQL](https://www.postgresql.org/) - database
 
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
-
 License
 ----
 
