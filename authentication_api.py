@@ -22,6 +22,7 @@ def sigin():
         return '', 422
     try:
         sigin = service_sigin(body['username'], body['password'])
-        return jsonify(to_dict(sigin))
+        print(sigin)
+        return sigin
     except AuthError:
         return '', 401
