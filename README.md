@@ -13,7 +13,7 @@ O DOIT usa vários projetos de código aberto para funcionar corretamente:
 
 * [Python](https://www.python.org/) - backend
 * [Flutter](https://flutter.dev/) - Frontend aplication
-* [PostgreSQL](https://www.postgresql.org/) - database
+* [SQLite](https://www.sqlite.org/index.html) - database
 
 License
 ----
