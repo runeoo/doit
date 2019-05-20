@@ -10,7 +10,7 @@ import requests as Req
 
 database = "./db/products.db"
 
-class Erro(Exception):
+class ProdutoNaoLocalizadoErro(Exception):
     pass
 
 
@@ -18,6 +18,9 @@ def finalizar(idProduto, cep, numero, complemento):
     cart_db = []
     service_listar()
     produto = service_localizar(idProduto)
+    if produto == None:
+        raise ProdutoNaoLocalizadoErro()
+
     cart_db.append({"produto": produto})
     url = f"http://viacep.com.br/ws/{cep}/json" 
     retorno = Req.get(url).json()

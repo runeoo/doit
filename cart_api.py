@@ -4,7 +4,7 @@ from infra.to_dict import to_dict, to_dict_list
 from infra.result import to_result
 from services.cart_service import \
     finalizar as service_finalizar, \
-    Erro
+    ProdutoNaoLocalizadoErro
 
 
 cart_app = Blueprint('cart_app', __name__, template_folder='templates')
@@ -23,5 +23,5 @@ def res():
     try:
         criado = service_finalizar(**dados)
         return jsonify(to_result(to_dict(criado), 200, 'Enviado com sucesso!'))
-    except Erro:
-        return jsonify(to_dict(to_result('Algum erro ocorreu', 409))), 409
+    except ProdutoNaoLocalizadoErro:
+        return jsonify(to_dict(to_result('Produto não localizado', 404, 'Not Found'))), 404
