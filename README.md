@@ -7,7 +7,7 @@ DOIT é um aplicativo criado com a finalidade de entregar uma atividade na facul
 - Igor Gusmão Laur - 1601230
 - Leonardo Laurino Serinhano - 1600925
 - Lincoln Morais de Melo - 1601212
-- Kaique Jacinto
+- Kaique Jacinto - 1601006
 
 ### Tecnologias
 O DOIT usa vários projetos de código aberto para funcionar corretamente:
