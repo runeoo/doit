@@ -10,7 +10,6 @@ DOIT é um aplicativo criado com a finalidade de entregar uma atividade na facul
 - Kaique Jacyntho Silveira dos Santos - 1601006
 
 ### Tecnologias
-O DOIT usa vários projetos de código aberto para funcionar corretamente:
 
 * [Python](https://www.python.org/) - backend
 * [Flutter](https://flutter.dev/) - Frontend aplication
