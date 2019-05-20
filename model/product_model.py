@@ -11,7 +11,7 @@ class Product():
         self.__name = name
         self.__value = value
         return self
-
+    
     @property
     def id(self):
         return self.__id

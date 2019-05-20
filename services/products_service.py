@@ -66,3 +66,6 @@ def remove(id):
     cursor.close()
     con.close()
     return result
+
+def atualizar(id, name, value):
+    return ''

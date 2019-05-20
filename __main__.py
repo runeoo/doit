@@ -1,9 +1,12 @@
 from flask import Flask, jsonify, request
 from products_api import products_app
+from cart_api import cart_app
 from infra.to_dict import to_dict, to_dict_list
 
 app = Flask(__name__)
 app.register_blueprint(products_app)
+app.register_blueprint(cart_app)
+
 
 @app.route('/')
 def all():
