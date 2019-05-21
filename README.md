@@ -12,7 +12,7 @@ DOIT é um aplicativo criado com a finalidade de entregar uma atividade na facul
 ### Tecnologias
 
 * [Python](https://www.python.org/) - backend
-* [Flutter](https://flutter.dev/) - Frontend aplication
+* [Angular](https://angular.io/) - Frontend aplication
 * [SQLite](https://www.sqlite.org/index.html) - database
 
 License
