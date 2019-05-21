@@ -16,7 +16,6 @@ class ProdutoNaoLocalizadoErro(Exception):
 
 def finalizar(idProduto, cep, numero, complemento):
     cart_db = []
-    service_listar()
     produto = service_localizar(idProduto)
     if produto == None:
         raise ProdutoNaoLocalizadoErro()

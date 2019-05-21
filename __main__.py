@@ -2,11 +2,12 @@ from flask import Flask, jsonify, request
 from products_api import products_app
 from cart_api import cart_app
 from infra.to_dict import to_dict, to_dict_list
+from flask_cors import CORS
 
 app = Flask(__name__)
 app.register_blueprint(products_app)
 app.register_blueprint(cart_app)
-
+CORS(app, supports_credentials=False)
 
 @app.route('/')
 def all():
@@ -17,5 +18,5 @@ def all():
     return jsonify(database)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    app.run(host='localhost', port=5001)
     
