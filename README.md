@@ -8,6 +8,7 @@ DOIT é um aplicativo criado com a finalidade de entregar uma atividade na facul
 - Leonardo Laurino Serinhano - 1600925
 - Lincoln Morais de Melo - 1601212
 - Kaique Jacyntho Silveira dos Santos - 1601006
+- Rafael Guima - 1510000
 
 ### Tecnologias
 
